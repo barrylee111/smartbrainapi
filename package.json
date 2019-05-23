@@ -1,13 +1,10 @@
 {
-  // "homepage": "http://barrylee111.github.io/smartbrainapi",
   "name": "smart-brain-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
-    // "predeploy": "npm run build",
-    // "deploy": "gh-pages -d build"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +14,7 @@
     "clarifai": "^2.9.0",
     "cors": "^2.8.5",
     "express": "^4.17.0",
+    "heroku": "^7.24.4",
     "knex": "^0.17.0-next3",
     "nodemon": "^1.19.0",
     "pg": "^7.11.0"
